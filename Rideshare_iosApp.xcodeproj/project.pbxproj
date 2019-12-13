@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53F5E61823A35F9E00C4F158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F5E61723A35F9E00C4F158 /* AppDelegate.swift */; };
+		53F5E61A23A35F9E00C4F158 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F5E61923A35F9E00C4F158 /* SceneDelegate.swift */; };
+		53F5E61C23A35F9E00C4F158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F5E61B23A35F9E00C4F158 /* ViewController.swift */; };
+		53F5E61F23A35F9E00C4F158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F5E61D23A35F9E00C4F158 /* Main.storyboard */; };
+		53F5E62123A35F9F00C4F158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F5E62023A35F9F00C4F158 /* Assets.xcassets */; };
+		53F5E62423A35F9F00C4F158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F5E62223A35F9F00C4F158 /* LaunchScreen.storyboard */; };
+		53F5E62F23A35FA000C4F158 /* Rideshare_iosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F5E62E23A35FA000C4F158 /* Rideshare_iosAppTests.swift */; };
+		53F5E63A23A35FA000C4F158 /* Rideshare_iosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F5E63923A35FA000C4F158 /* Rideshare_iosAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53F5E62B23A35FA000C4F158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F5E60C23A35F9E00C4F158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F5E61323A35F9E00C4F158;
+			remoteInfo = Rideshare_iosApp;
+		};
+		53F5E63623A35FA000C4F158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F5E60C23A35F9E00C4F158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F5E61323A35F9E00C4F158;
+			remoteInfo = Rideshare_iosApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53F5E61423A35F9E00C4F158 /* Rideshare_iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rideshare_iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F5E61723A35F9E00C4F158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53F5E61923A35F9E00C4F158 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		53F5E61B23A35F9E00C4F158 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53F5E61E23A35F9E00C4F158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53F5E62023A35F9F00C4F158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53F5E62323A35F9F00C4F158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53F5E62523A35F9F00C4F158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F5E62A23A35FA000C4F158 /* Rideshare_iosAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rideshare_iosAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F5E62E23A35FA000C4F158 /* Rideshare_iosAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rideshare_iosAppTests.swift; sourceTree = "<group>"; };
+		53F5E63023A35FA000C4F158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F5E63523A35FA000C4F158 /* Rideshare_iosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rideshare_iosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F5E63923A35FA000C4F158 /* Rideshare_iosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rideshare_iosAppUITests.swift; sourceTree = "<group>"; };
+		53F5E63B23A35FA000C4F158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F5E61123A35F9E00C4F158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F5E62723A35FA000C4F158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F5E63223A35FA000C4F158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F5E60B23A35F9E00C4F158 = {
+			isa = PBXGroup;
+			children = (
+				53F5E61623A35F9E00C4F158 /* Rideshare_iosApp */,
+				53F5E62D23A35FA000C4F158 /* Rideshare_iosAppTests */,
+				53F5E63823A35FA000C4F158 /* Rideshare_iosAppUITests */,
+				53F5E61523A35F9E00C4F158 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53F5E61523A35F9E00C4F158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F5E61423A35F9E00C4F158 /* Rideshare_iosApp.app */,
+				53F5E62A23A35FA000C4F158 /* Rideshare_iosAppTests.xctest */,
+				53F5E63523A35FA000C4F158 /* Rideshare_iosAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F5E61623A35F9E00C4F158 /* Rideshare_iosApp */ = {
+			isa = PBXGroup;
+			children = (
+				53F5E61723A35F9E00C4F158 /* AppDelegate.swift */,
+				53F5E61923A35F9E00C4F158 /* SceneDelegate.swift */,
+				53F5E61B23A35F9E00C4F158 /* ViewController.swift */,
+				53F5E61D23A35F9E00C4F158 /* Main.storyboard */,
+				53F5E62023A35F9F00C4F158 /* Assets.xcassets */,
+				53F5E62223A35F9F00C4F158 /* LaunchScreen.storyboard */,
+				53F5E62523A35F9F00C4F158 /* Info.plist */,
+			);
+			path = Rideshare_iosApp;
+			sourceTree = "<group>";
+		};
+		53F5E62D23A35FA000C4F158 /* Rideshare_iosAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				53F5E62E23A35FA000C4F158 /* Rideshare_iosAppTests.swift */,
+				53F5E63023A35FA000C4F158 /* Info.plist */,
+			);
+			path = Rideshare_iosAppTests;
+			sourceTree = "<group>";
+		};
+		53F5E63823A35FA000C4F158 /* Rideshare_iosAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53F5E63923A35FA000C4F158 /* Rideshare_iosAppUITests.swift */,
+				53F5E63B23A35FA000C4F158 /* Info.plist */,
+			);
+			path = Rideshare_iosAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53F5E61323A35F9E00C4F158 /* Rideshare_iosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F5E63E23A35FA000C4F158 /* Build configuration list for PBXNativeTarget "Rideshare_iosApp" */;
+			buildPhases = (
+				53F5E61023A35F9E00C4F158 /* Sources */,
+				53F5E61123A35F9E00C4F158 /* Frameworks */,
+				53F5E61223A35F9E00C4F158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rideshare_iosApp;
+			productName = Rideshare_iosApp;
+			productReference = 53F5E61423A35F9E00C4F158 /* Rideshare_iosApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53F5E62923A35FA000C4F158 /* Rideshare_iosAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F5E64123A35FA000C4F158 /* Build configuration list for PBXNativeTarget "Rideshare_iosAppTests" */;
+			buildPhases = (
+				53F5E62623A35FA000C4F158 /* Sources */,
+				53F5E62723A35FA000C4F158 /* Frameworks */,
+				53F5E62823A35FA000C4F158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F5E62C23A35FA000C4F158 /* PBXTargetDependency */,
+			);
+			name = Rideshare_iosAppTests;
+			productName = Rideshare_iosAppTests;
+			productReference = 53F5E62A23A35FA000C4F158 /* Rideshare_iosAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53F5E63423A35FA000C4F158 /* Rideshare_iosAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F5E64423A35FA000C4F158 /* Build configuration list for PBXNativeTarget "Rideshare_iosAppUITests" */;
+			buildPhases = (
+				53F5E63123A35FA000C4F158 /* Sources */,
+				53F5E63223A35FA000C4F158 /* Frameworks */,
+				53F5E63323A35FA000C4F158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F5E63723A35FA000C4F158 /* PBXTargetDependency */,
+			);
+			name = Rideshare_iosAppUITests;
+			productName = Rideshare_iosAppUITests;
+			productReference = 53F5E63523A35FA000C4F158 /* Rideshare_iosAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53F5E60C23A35F9E00C4F158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Prabhakar, Piyush (Cognizant)";
+				TargetAttributes = {
+					53F5E61323A35F9E00C4F158 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					53F5E62923A35FA000C4F158 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 53F5E61323A35F9E00C4F158;
+					};
+					53F5E63423A35FA000C4F158 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 53F5E61323A35F9E00C4F158;
+					};
+				};
+			};
+			buildConfigurationList = 53F5E60F23A35F9E00C4F158 /* Build configuration list for PBXProject "Rideshare_iosApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53F5E60B23A35F9E00C4F158;
+			productRefGroup = 53F5E61523A35F9E00C4F158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53F5E61323A35F9E00C4F158 /* Rideshare_iosApp */,
+				53F5E62923A35FA000C4F158 /* Rideshare_iosAppTests */,
+				53F5E63423A35FA000C4F158 /* Rideshare_iosAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53F5E61223A35F9E00C4F158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F5E62423A35F9F00C4F158 /* LaunchScreen.storyboard in Resources */,
+				53F5E62123A35F9F00C4F158 /* Assets.xcassets in Resources */,
+				53F5E61F23A35F9E00C4F158 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F5E62823A35FA000C4F158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F5E63323A35FA000C4F158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F5E61023A35F9E00C4F158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F5E61C23A35F9E00C4F158 /* ViewController.swift in Sources */,
+				53F5E61823A35F9E00C4F158 /* AppDelegate.swift in Sources */,
+				53F5E61A23A35F9E00C4F158 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F5E62623A35FA000C4F158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F5E62F23A35FA000C4F158 /* Rideshare_iosAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F5E63123A35FA000C4F158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F5E63A23A35FA000C4F158 /* Rideshare_iosAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53F5E62C23A35FA000C4F158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F5E61323A35F9E00C4F158 /* Rideshare_iosApp */;
+			targetProxy = 53F5E62B23A35FA000C4F158 /* PBXContainerItemProxy */;
+		};
+		53F5E63723A35FA000C4F158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F5E61323A35F9E00C4F158 /* Rideshare_iosApp */;
+			targetProxy = 53F5E63623A35FA000C4F158 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53F5E61D23A35F9E00C4F158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F5E61E23A35F9E00C4F158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53F5E62223A35F9F00C4F158 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F5E62323A35F9F00C4F158 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53F5E63C23A35FA000C4F158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53F5E63D23A35FA000C4F158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53F5E63F23A35FA000C4F158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJDGS34R5N;
+				INFOPLIST_FILE = Rideshare_iosApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piyush.Rideshare-iosApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53F5E64023A35FA000C4F158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJDGS34R5N;
+				INFOPLIST_FILE = Rideshare_iosApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piyush.Rideshare-iosApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		53F5E64223A35FA000C4F158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJDGS34R5N;
+				INFOPLIST_FILE = Rideshare_iosAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piyush.Rideshare-iosAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rideshare_iosApp.app/Rideshare_iosApp";
+			};
+			name = Debug;
+		};
+		53F5E64323A35FA000C4F158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJDGS34R5N;
+				INFOPLIST_FILE = Rideshare_iosAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piyush.Rideshare-iosAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rideshare_iosApp.app/Rideshare_iosApp";
+			};
+			name = Release;
+		};
+		53F5E64523A35FA000C4F158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJDGS34R5N;
+				INFOPLIST_FILE = Rideshare_iosAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piyush.Rideshare-iosAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rideshare_iosApp;
+			};
+			name = Debug;
+		};
+		53F5E64623A35FA000C4F158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KJDGS34R5N;
+				INFOPLIST_FILE = Rideshare_iosAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.piyush.Rideshare-iosAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rideshare_iosApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F5E60F23A35F9E00C4F158 /* Build configuration list for PBXProject "Rideshare_iosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F5E63C23A35FA000C4F158 /* Debug */,
+				53F5E63D23A35FA000C4F158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F5E63E23A35FA000C4F158 /* Build configuration list for PBXNativeTarget "Rideshare_iosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F5E63F23A35FA000C4F158 /* Debug */,
+				53F5E64023A35FA000C4F158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F5E64123A35FA000C4F158 /* Build configuration list for PBXNativeTarget "Rideshare_iosAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F5E64223A35FA000C4F158 /* Debug */,
+				53F5E64323A35FA000C4F158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F5E64423A35FA000C4F158 /* Build configuration list for PBXNativeTarget "Rideshare_iosAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F5E64523A35FA000C4F158 /* Debug */,
+				53F5E64623A35FA000C4F158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53F5E60C23A35F9E00C4F158 /* Project object */;
+}
