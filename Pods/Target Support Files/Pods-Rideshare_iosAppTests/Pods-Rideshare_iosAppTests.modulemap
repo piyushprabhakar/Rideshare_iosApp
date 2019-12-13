@@ -1,0 +1,6 @@
+framework module Pods_Rideshare_iosAppTests {
+  umbrella header "Pods-Rideshare_iosAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
