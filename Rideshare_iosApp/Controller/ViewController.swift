@@ -9,15 +9,21 @@
 import UIKit
 import MapKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MKMapViewDelegate {
+    
+    @IBOutlet weak var requestRideButton: RoundedShadowButton!
     
     @IBOutlet weak var mapView: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        mapView.delegate = self
         
     }
-
+    @IBAction func didTapRequestRideButton(_ sender: Any) {
+        requestRideButton.animateButton(shouldLoad: true, withMessage: nil)
+    }
+    
 
 }
 

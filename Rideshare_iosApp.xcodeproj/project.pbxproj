@@ -18,6 +18,10 @@
 		53F5E63A23A35FA000C4F158 /* Rideshare_iosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F5E63923A35FA000C4F158 /* Rideshare_iosAppUITests.swift */; };
 		8143EA0CEDC7A579E96F2641 /* Pods_Rideshare_iosAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C14B5EA9640C3047A579B8 /* Pods_Rideshare_iosAppTests.framework */; };
 		95280C25C34CBD0ACEB2DB7B /* Pods_Rideshare_iosAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55CB11875A9BE47D3E6845D /* Pods_Rideshare_iosAppUITests.framework */; };
+		D8596BCB23BC8ABF00E8C068 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8596BCA23BC8ABF00E8C068 /* RoundImageView.swift */; };
+		D8596BCD23BC8C2D00E8C068 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8596BCC23BC8C2D00E8C068 /* RoundedShadowView.swift */; };
+		D8596BCF23BC8DB200E8C068 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8596BCE23BC8DB200E8C068 /* CircleView.swift */; };
+		D8596BD123BC8F5300E8C068 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8596BD023BC8F5300E8C068 /* RoundedShadowButton.swift */; };
 		D8F4D5A723A6601C00D04C48 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F4D5A623A6601C00D04C48 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +64,10 @@
 		76C14B5EA9640C3047A579B8 /* Pods_Rideshare_iosAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rideshare_iosAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		930A82016685374B1BDDC3FB /* Pods-Rideshare_iosAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rideshare_iosAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rideshare_iosAppUITests/Pods-Rideshare_iosAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A55CB11875A9BE47D3E6845D /* Pods_Rideshare_iosAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rideshare_iosAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8596BCA23BC8ABF00E8C068 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		D8596BCC23BC8C2D00E8C068 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		D8596BCE23BC8DB200E8C068 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		D8596BD023BC8F5300E8C068 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
 		D8F4D5A623A6601C00D04C48 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		FB261C768B0B5B5B620512BF /* Pods_Rideshare_iosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rideshare_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBD4E22D02E4C13E5FD8C88 /* Pods-Rideshare_iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rideshare_iosApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rideshare_iosApp/Pods-Rideshare_iosApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +192,10 @@
 			isa = PBXGroup;
 			children = (
 				D8F4D5A623A6601C00D04C48 /* GradientView.swift */,
+				D8596BCA23BC8ABF00E8C068 /* RoundImageView.swift */,
+				D8596BCC23BC8C2D00E8C068 /* RoundedShadowView.swift */,
+				D8596BCE23BC8DB200E8C068 /* CircleView.swift */,
+				D8596BD023BC8F5300E8C068 /* RoundedShadowButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -413,10 +425,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8596BCB23BC8ABF00E8C068 /* RoundImageView.swift in Sources */,
 				53F5E61C23A35F9E00C4F158 /* ViewController.swift in Sources */,
+				D8596BCD23BC8C2D00E8C068 /* RoundedShadowView.swift in Sources */,
 				53F5E61823A35F9E00C4F158 /* AppDelegate.swift in Sources */,
 				D8F4D5A723A6601C00D04C48 /* GradientView.swift in Sources */,
+				D8596BCF23BC8DB200E8C068 /* CircleView.swift in Sources */,
 				53F5E61A23A35F9E00C4F158 /* SceneDelegate.swift in Sources */,
+				D8596BD123BC8F5300E8C068 /* RoundedShadowButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
